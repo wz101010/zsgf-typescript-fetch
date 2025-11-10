@@ -1,0 +1,20 @@
+{
+      "name": "zsgf-client",
+      "version": "2.1.4",
+      "description": "typescript fetch client for zashigaofa.com",
+      "author": "zashigaofa.com",
+      "repository": {
+          "type": "git",
+          "url": "http://github.com/wz101010/zsgf-typescript-fetch.git"
+      },
+      "license": "MIT",
+      "main": "./dist/index.js",
+      "typings": "./dist/index.d.ts",
+      "scripts": {
+          "build": "tsc",
+          "prepare": "npm run build"
+      },
+      "devDependencies": {
+          "typescript": "^4.0 || ^5.0"
+      }
+  }
